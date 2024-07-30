@@ -1,0 +1,58 @@
+Microsoft Windows [Version 10.0.22631.3958]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git init
+Initialized empty Git repository in C:/Users/Mysura Reddy C/Documents/full stack/react/reactprj/src/task1/.git/
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git add .
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git remote add origin https://github.com/mysurac/uk.git
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mysurac/uk.git'
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git remote add origin https://github.com/mysurac/uk.git
+error: remote origin already exists.
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git add .
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git commit -m "first commit"
+[master (root-commit) 043192e] first commit
+ 14 files changed, 494 insertions(+)
+ create mode 100644 App.js
+ create mode 100644 ArtworkDetail.js
+ create mode 100644 ArtworkList.js
+ create mode 100644 CommentsForm.js
+ create mode 100644 Filter.js
+ create mode 100644 Pagination.js
+ create mode 100644 SearchFilter.js
+ create mode 100644 api.js
+ create mode 100644 artworkService.js
+ create mode 100644 img/bgimg.jpg
+ create mode 100644 img/bgimg2.avif
+ create mode 100644 img/bgimg3.jpg
+ create mode 100644 index.js
+ create mode 100644 styles.css
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git remote add origin https://github.com/mysurac/uk.git
+error: remote origin already exists.
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git remote add origin1 https://github.com/mysurac/
+uk.git
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>git push -u origin1 master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 28.63 KiB | 1.24 MiB/s, done.
+Total 17 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mysurac/uk.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin1/master'.
+
+C:\Users\Mysura Reddy C\Documents\full stack\react\reactprj\src\task1>
